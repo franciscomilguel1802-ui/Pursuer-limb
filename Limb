@@ -246,14 +246,8 @@ RootPart.Anchored = true
 NPCRootPart.CFrame = CFrame.lookAt(RootPart.Position + (RootPart.CFrame.LookVector * 2.5), RootPart.Position) * CFrame.new(0, 0, -3) * CFrame.Angles(0, math.rad(180), 0)
 PlayAnim(Character, Animations.GashingWound_KillerRig, 0, 2)
 PlayAnim(NPC, Animations.GashingWound_PlayerRig, 0, 2)
---DummyWeld.Part0 = NPC:FindFirstChild("Torso")
---DummyWeld.Part1 = ReanimateDummy
---DummyWeld.C0 = CFrame.new(0, 0, 0)
 task.wait(2.65)
 NPC:Destroy()
---DummyWeld.Part0 = RootPart
---DummyWeld.Part1 = ReanimateDummy
---DummyWeld.C0 = CFrame.new(0, -15, 0)
 RootPart.Anchored = false
 Debounce = false
 Humanoid.AutoRotate = true
@@ -337,14 +331,8 @@ RootPart.Anchored = true
 NPCRootPart.CFrame = CFrame.lookAt(RootPart.Position + (RootPart.CFrame.LookVector * 2.5), RootPart.Position) * CFrame.new(0, 0, -3) * CFrame.Angles(0, math.rad(180), 0)
 PlayAnim(Character, Animations.Execution_KillerRig, 0, 2)
 PlayAnim(NPC, Animations.Execution_PlayerRig, 0, 2)
-DummyWeld.Part0 = NPC:FindFirstChild("Torso")
-DummyWeld.Part1 = ReanimateDummy
-DummyWeld.C0 = CFrame.new(0, 0, 0)
 task.wait(1.15)
 NPC:Destroy()
-DummyWeld.Part0 = RootPart
-DummyWeld.Part1 = ReanimateDummy
-DummyWeld.C0 = CFrame.new(0, -15, 0)
 RootPart.Anchored = false
 Debounce = false
 Humanoid.AutoRotate = true
